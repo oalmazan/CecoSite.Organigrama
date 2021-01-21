@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.11.0",
+    "libraryName": "cecoban-orgchart",
+    "libraryId": "6cf4a5f1-a4a2-4ad8-8c84-e5b480492061",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "cecoban-orgchart",
+    "skipFeatureDeployment": "true",
+    "componentType": "webpart",
+    "framework": "none",
+    "componentName": "OrganizationChart",
+    "componentDescription": "OrganizationChart for Cecoban",
+    "isCreatingSolution": true,
+    "isDomainIsolated": true
+  }
+}

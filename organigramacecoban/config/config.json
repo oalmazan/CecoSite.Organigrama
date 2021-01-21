@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "organization-chart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/organizationChart/OrganizationChartWebPart.js",
+          "manifest": "./src/webparts/organizationChart/OrganizationChartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": {
+      "path": "https://code.jquery.com/jquery-3.5.1.js",
+      "globalName": "jQuery"
+    },
+    "orgchart": {
+      "path": "https://cdnjs.cloudflare.com/ajax/libs/orgchart/2.1.10/js/jquery.orgchart.js",
+      "globalName": "jQuery",
+      "globalDependencies": [ "jquery" ]
+   }
+  },
+  "localizedResources": {
+    "OrganizationChartWebPartStrings": "lib/webparts/organizationChart/loc/{locale}.js"
+  }
+}
